@@ -1,0 +1,62 @@
+* {
+  color: #4E4E4E;
+}
+
+#panda_logo {
+	opacity: 0.08;
+    filter: alpha(opacity=8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+button{
+	background-color: #4E4E4E;
+    padding: 10px 40px; 
+	width: 200px;
+    border-radius: 10px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    font-size: 14px;
+    color: white;
+    margin: 0 5px 5px 0;
+}
+
+button:hover{
+  background-color: red;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+
+}
+
+button:active {
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+button:focus {
+	outline-color: red;
+}
+
+.submit {
+    margin: 0 5px 5px 0;
+}
+
+form {
+	margin-top: 5px;
+}
+.submit:active {
+	background-color: red;
+ 	filter: alpha(opacity=65);
+ 	opacity: 0.65;
+	border: 1px solid white;
+	border-radius: 6px;
+	color: white;
+	outline-color: white;
+}
+
+.item {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+}
