@@ -45,7 +45,7 @@ $(document).ready(function(){
         $('#images .item').remove();
         
         // Storing our giphy API URL for a random animal image
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
         // Perfoming an AJAX GET request to our queryURL
         $.ajax({
