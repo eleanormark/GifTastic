@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     var gifObj = {
 
-      topics: ['Whale','Red Panda','Rhino', 'Polar Bear', 'Tiger', 'Elephant', 'Giant Panda', 'Macaw'],
+      topics: ['Whale','Red Panda','Orangutan', 'Polar Bear', 'Tiger', 'Elephant', 'Giant Panda', 'Macaw'],
       getTopicButtons: function() {
         // display topic buttons
         gifObj.topics.forEach(function(index) {
