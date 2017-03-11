@@ -32,9 +32,11 @@ $(document).ready(function(){
    $('#add-animal').on('click', function() {
       event.preventDefault();
       var submitAnimal = $("#animal-input").val().trim();
+      if (submitAnimal!==""){
       gifObj.topics.push(submitAnimal);
       $('button.animal').remove();
       gifObj.getTopicButtons();
+    }
    });
 
    $('.container').on('click', '#item-buttons .animal', function() {
